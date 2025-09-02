@@ -1,41 +1,58 @@
 # Sudoku-Game
 Sudoku Game generating using Python Language. 
 <br> <br>
-🧩 Sudoku Game in Python
+🧩 Sudoku Game in Python (CLI Version)
 
-This project is a classic Sudoku game built in Python, designed to provide players with an interactive and challenging puzzle experience. The game follows the standard Sudoku rules and allows players to solve puzzles of varying difficulty levels.
+This project is a command-based Sudoku game implemented in Python. It provides an interactive Sudoku puzzle with multiple difficulty levels and advanced in-game commands to help players solve the puzzle or test their strategies.
 
 🎮 Features
 
-Classic Sudoku Gameplay – Fill the 9×9 grid so that each row, column, and 3×3 subgrid contains digits 1–9 without repetition.
+Difficulty Selection – Choose from Easy, Medium, or Hard puzzles.
 
-Difficulty Levels – Choose from Easy, Medium, or Hard puzzles based on your preference.
+Command-Based Gameplay – Play by entering commands:
 
-User-Friendly Design – Simple interface to input numbers and navigate the board.
+1 R C N → Place number N at row R, column C
 
-Input Validation – Ensures each number placed follows Sudoku rules.
+2 R C → Erase number at row R, column C
 
-Replay Option – Players can start a new game anytime.
+3 → Get a hint (fills one safe move)
 
-Win Detection – Displays a congratulatory message when the puzzle is solved correctly.
+4 → Check board for rule violations (for checking the generated grid is valid or not) 
+
+5 → Solve puzzle and display the full solution
+
+6 → Quit the game
+
+Input Validation – Ensures each move follows Sudoku rules.
+
+Win Detection – Displays a congratulations message when the puzzle is solved successfully.
+
+Replay Option – Start a new game anytime with a different difficulty.
 
 🚀 How It Works
 
-At launch, the player selects a difficulty level (easy, medium, or hard).
+The player selects a difficulty level (Easy, Medium, Hard).
 
-A Sudoku puzzle is generated with a mix of pre-filled and blank cells.
+The game generates a Sudoku puzzle with some cells blank.
 
-The player fills in blank cells using keyboard. 
+The player interacts using commands to place or remove numbers, request hints, or check the board.
 
-The game checks moves for validity in real time.
+Players can either solve the puzzle themselves or use the built-in solver.
 
-Once the grid is completed successfully, a “Congratulations, You Win!” message is displayed.
+When completed correctly, a victory message is displayed.
+
+🛠️ Technologies Used
+
+Python (no external libraries required, runs in the terminal).
 
 📌 Future Enhancements
 
-Timer mode ⏳ to challenge speed-solving.
+Timer mode ⏳ with countdown and “Game Over” on timeout.
 
-Scoreboard 🏆 for tracking progress.
-Python for game logic
+Score system 🏆 to reward hint-free solves.
+
+Save & Load feature for continuing puzzles later.
+
+✨ This project is a great way to practice Python logic, backtracking algorithms, and user input handling, while enjoying one of the world’s most popular puzzles!
 
 ✨ This project is ideal for learning Python game development and practicing backtracking algorithms while enjoying a 
