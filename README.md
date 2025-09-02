@@ -1,6 +1,4 @@
 # Sudoku-Game
-Sudoku Game generating using Python Language. 
-<br> <br>
 🧩 Sudoku Game in Python (CLI Version)
 
 This project is a command-based Sudoku game implemented in Python. It provides an interactive Sudoku puzzle with multiple difficulty levels and advanced in-game commands to help players solve the puzzle or test their strategies.
