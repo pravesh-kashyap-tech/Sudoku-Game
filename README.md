@@ -53,4 +53,4 @@ Score system 🏆 to reward hint-free solves.
 
 Save & Load feature for continuing puzzles later.
 
-✨ This project is a great way to practice Python logic, backtracking algorithms, and user input handling, while enjoying one of the world’s most popular puzzles!s ideal for learning Python game development and practicing backtracking algorithms while enjoying a 
+✨ This project is a great way to practice Python logic, backtracking algorithms, and user input handling, while enjoying one of the world’s most popular puzzles!s ideal for learning Python game development and practicing backtracking algorithms. 
